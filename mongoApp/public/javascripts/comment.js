@@ -17,7 +17,7 @@ angular.module('comment', [])
         }
     ];
 
-    $scope.name = ProfessorList[0].name;
-    $scope.imgURL = ProfessorList[0].imgURL;
+    $scope.name = ProfessorList[1].name;
+    $scope.imgURL = ProfessorList[1].imgURL;
   }
 ]);

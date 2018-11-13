@@ -10,4 +10,8 @@ router.get('/app', function(req, res, next) {
   res.render('app.ejs', { title: 'Express' });
 });
 
+router.get('/about', function(req, res, next) {
+  res.render('about.ejs', { title: 'Express' });
+});
+
 module.exports = router;
